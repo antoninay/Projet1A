@@ -1,42 +1,47 @@
 \babel@toc {french}{}\relax 
-\contentsline {section}{\numberline {1}Problématique générale et modélisation}{3}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Problème physique : Les fluides et les écoulements de Darcy}{3}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Les paramètres du projet}{3}{subsection.1.2}%
-\contentsline {subsubsection}{\numberline {1.2.1}Conditions aux limites}{4}{subsubsection.1.2.1}%
-\contentsline {subsubsection}{\numberline {1.2.2}Fonction de conductivité paramétrique}{4}{subsubsection.1.2.2}%
-\contentsline {subsubsection}{\numberline {1.2.3}Espace des paramètres}{4}{subsubsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.3}Formulation variationnelle}{5}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Méthode des éléments finis et Résolution haute fidélité}{6}{subsection.1.4}%
-\contentsline {subsubsection}{\numberline {1.4.1}Discrétisation par éléments finis}{6}{subsubsection.1.4.1}%
-\contentsline {subsubsection}{\numberline {1.4.2}Assemblage et résolution haute fidélité}{6}{subsubsection.1.4.2}%
-\contentsline {section}{\numberline {2}Réduction de modèle et hyper-réduction}{7}{section.2}%
-\contentsline {subsection}{\numberline {2.1}L'ensemble d'entraînement}{7}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Extraction de la base réduite : La méthode POD}{8}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Principe géométrique et algébrique}{8}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Visualisation des modes POD}{10}{subsubsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.3}Projection de Galerkin et premiers résultats}{10}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Formulation réduite}{10}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Performance de la reduction de modèle}{11}{subsubsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.4}Le problème révélé : Temps d'assemblage explosif}{12}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1}Où se cache le goulot ?}{12}{subsubsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.5}Une première solution : Exploiter la structure affine}{13}{subsection.2.5}%
-\contentsline {subsubsection}{\numberline {2.5.1}Une opportunité structurelle}{13}{subsubsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.6}L'obstacle numérique : Pathologies de la fonction Heaviside}{13}{subsection.2.6}%
-\contentsline {subsubsection}{\numberline {2.6.1}Pourquoi Heaviside pose problème}{13}{subsubsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.7}La solution : Régularisation par sigmoïde C$^{\infty }$}{14}{subsection.2.7}%
-\contentsline {subsubsection}{\numberline {2.7.1}Remplacer l'abrupte par le lisse}{14}{subsubsection.2.7.1}%
-\contentsline {subsubsection}{\numberline {2.7.2}Impact sur la convergence EIM}{14}{subsubsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.8}L'Empirical Interpolation Method (EIM) pour la décomposition affine}{15}{subsection.2.8}%
-\contentsline {subsubsection}{\numberline {2.8.1}Motivation : Séparer offline et online}{15}{subsubsection.2.8.1}%
-\contentsline {subsubsection}{\numberline {2.8.2}Points magiques et sélection greedy}{16}{subsubsection.2.8.2}%
-\contentsline {subsubsection}{\numberline {2.8.3}Séparation offline-online}{16}{subsubsection.2.8.3}%
-\contentsline {subsection}{\numberline {2.9}Résultats numériques : De la théorie à la pratique}{16}{subsection.2.9}%
-\contentsline {subsubsection}{\numberline {2.9.1}Configuration expérimentale}{16}{subsubsection.2.9.1}%
-\contentsline {subsubsection}{\numberline {2.9.2}Erreur de reconstruction de conductivité}{16}{subsubsection.2.9.2}%
-\contentsline {subsubsection}{\numberline {2.9.3}Comparaison des performances : POD vs POD+EIM}{17}{subsubsection.2.9.3}%
-\contentsline {subsubsection}{\numberline {2.9.4}Erreur globale du modèle réduit}{17}{subsubsection.2.9.4}%
-\contentsline {subsubsection}{\numberline {2.9.5}Visualisation des champs : Qualité visuelle}{18}{subsubsection.2.9.5}%
-\contentsline {section}{\numberline {3}Conclusion}{19}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Résumé des résultats}{19}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Implications pratiques}{20}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Limitations et perspectives}{20}{subsection.3.3}%
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {section}{\numberline {2}Problématique générale et modélisation}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Problème physique : Les fluides et les écoulements de Darcy}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Paramétrisation du problème}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Formulation variationnelle}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Discrétisation par éléments finis (Modèle Haute Fidélité)}{6}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Réduction de modèle et hyper-réduction}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}L'ensemble d'entraînement}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Extraction de la base réduite : La méthode POD}{7}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Principe géométrique et algébrique}{7}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Interprétation et propriétés des modes POD}{8}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Projection de Galerkin et modèle réduit}{9}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Formulation réduite}{9}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Analyse de l'erreur de projection}{10}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4}Limite de la POD seule : Le goulot d'assemblage}{10}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Complexité de la phase online et goulot d'étranglement}{10}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}La solution : l'hypothèse de décomposition affine}{11}{subsubsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.5}Structure affine en les conductivités}{11}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Décomposition affine exacte à géométrie fixée}{11}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Séparation offline-online induite}{12}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.3}Limite : la géométrie variable brise l'affinité}{12}{subsubsection.3.5.3}%
+\contentsline {section}{\numberline {4}Hyper-réduction : EIM}{13}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Motivation}{13}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Méthode}{13}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Construction de la base EIM}{13}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Points magiques et sélection greedy}{14}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Approximation affine et coefficients}{15}{subsubsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.3}La Régularisation de la fonction de Heaviside}{16}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}L'obstacle de l'irrégularité}{16}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}La fonction de Heaviside comme limite de la fonction sigmoide}{16}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}L'efficacité de l'EIM pour les fonctions lisses}{16}{subsubsection.4.3.3}%
+\contentsline {section}{\numberline {5}Implémentation et validation numérique}{17}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Configuration du cas test paramétrique}{17}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Maillage et conditions aux limites}{17}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Espace des paramètres}{18}{subsubsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.2}Modèle Haute Fidélité et ensemble d'entraînement}{18}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Extraction de la base POD}{19}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Analyse spectrale}{19}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.2}Interprétation physique des modes}{20}{subsubsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.4}Performances de la méthode POD (Phase Online)}{21}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Le goulot d'étranglement computationnel}{21}{subsubsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.5}Hyper-réduction et performances EIM}{22}{subsection.5.5}%
+\contentsline {section}{\numberline {6}Conclusion}{22}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Résumé des résultats}{22}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Implications pratiques}{22}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Limitations et perspectives}{23}{subsection.6.3}%
