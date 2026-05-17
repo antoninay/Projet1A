@@ -108,7 +108,7 @@ En physique, un fluide sous pression traversant un milieu poreux cherche toujour
 à minimiser son énergie. Tout comme une bille dévale une pente pour atteindre le 
 point le plus bas, un fluide va naturellement s'écouler en empruntant le chemin de moindre 
 résistance pour dissiper le moins d'énergie possible.
-
+ra
 Le fluide se déplace sous l'effet d'un gradient de pression $\nabla u$, où $u$ désigne la pression. 
 Cependant, le celui-ci ne s'écoule pas dans le vide : il frotte contre les parois du milieu. La vitesse d'écoulement du fluide, notée $\mathbf{v}$, est dictée par la loi empirique de Darcy \cite{darcy_wiki} : 
 $\mathbf{v} = -k \nabla u$, où $k$ est un coefficient empirique qui dépend du fluide et du milieu.
@@ -199,7 +199,7 @@ En choisissant une base $\{\phi_i\}_{i=1}^{N_{\text{dof}}}$ de l'espace $V_h$, l
 \end{equation*}
 où $A(\mu)$ est la matrice de rigidité et $\mathbf{b}(\mu)$ le vecteur de charge. En résolvant le système on obtient la solution $\mathbf{u}_h(\mu)$ qui constitue la solution \textbf{Haute Fidélité} (HDM).
 
-\section{Réduction de modèle et hyper-réduction}
+\section{Réduction de modèle}
 
 
 La résolution du modèle haute fidélité pour un grand nombre de valeurs du paramètre $\mu$ est prohibitive : à chaque nouvelle configuration, il faut réassembler et résoudre un système linéaire creux de taille $N_{\text{dof}}$. Ce coût, incompressible dans le cadre haute fidélité, interdit toute utilisation en contexte d'optimisation paramétrique, d'inversion, ou de simulation temps-réel.
