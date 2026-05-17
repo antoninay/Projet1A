@@ -14,15 +14,14 @@
 \citation{darcy_wiki}
 \@writefile{toc}{\contentsline {section}{\numberline {2}Problématique générale et modélisation}{4}{section.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Problème physique : Les fluides et les écoulements de Darcy}{4}{subsection.2.1}\protected@file@percent }
-\newlabel{probleme Darcy}{{1}{5}{Problème physique : Les fluides et les écoulements de Darcy}{equation.1}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Paramétrisation du problème}{5}{subsection.2.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Formulation variationnelle}{5}{subsection.2.3}\protected@file@percent }
-\newlabel{probleme1}{{3}{5}{Formulation variationnelle}{equation.3}{}}
+\newlabel{probleme1}{{1}{5}{Formulation variationnelle}{equation.1}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Discrétisation par éléments finis (Modèle Haute Fidélité)}{6}{subsection.2.4}\protected@file@percent }
-\newlabel{eq:hf}{{11}{6}{Discrétisation par éléments finis (Modèle Haute Fidélité)}{equation.11}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {3}Réduction de modèle et hyper-réduction}{7}{section.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1}L'ensemble d'entraînement}{7}{subsection.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Extraction de la base réduite : La méthode POD}{7}{subsection.3.2}\protected@file@percent }
+\newlabel{sec:POD}{{3.2}{7}{Extraction de la base réduite : La méthode POD}{subsection.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Extraction de la base réduite : La méthode POD }{7}{subsection.3.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}Principe géométrique et algébrique}{7}{subsubsection.3.2.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}Interprétation et propriétés des modes POD}{8}{subsubsection.3.2.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Projection de Galerkin et modèle réduit}{9}{subsection.3.3}\protected@file@percent }
@@ -36,48 +35,86 @@
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.2}Séparation offline-online induite}{12}{subsubsection.3.5.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.3}Limite : la géométrie variable brise l'affinité}{12}{subsubsection.3.5.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {4}Hyper-réduction : EIM}{13}{section.4}\protected@file@percent }
+\newlabel{sec:eim}{{4}{13}{Hyper-réduction : EIM}{section.4}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Motivation}{13}{subsection.4.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Méthode}{13}{subsection.4.2}\protected@file@percent }
+\newlabel{sec:eim_methode}{{4.2}{13}{Méthode}{subsection.4.2}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}Construction de la base EIM}{13}{subsubsection.4.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}Points magiques et sélection greedy}{14}{subsubsection.4.2.2}\protected@file@percent }
-\newlabel{contrle_erreur_eim}{{42}{14}{Points magiques et sélection greedy}{equation.42}{}}
+\citation{barrault2004}
+\citation{barrault2004}
+\citation{barrault2004}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}"Magic points" et sélection greedy}{14}{subsubsection.4.2.2}\protected@file@percent }
+\newlabel{contrle_erreur_eim}{{16}{14}{"Magic points" et sélection greedy}{equation.16}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.3}Approximation affine et coefficients}{15}{subsubsection.4.2.3}\protected@file@percent }
 \citation{barrault2004}
-\citation{trefethen2013}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}La Régularisation de la fonction de Heaviside}{16}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Régularisation}{16}{subsection.4.3}\protected@file@percent }
+\newlabel{sec:regularisation}{{4.3}{16}{Régularisation}{subsection.4.3}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.1}L'obstacle de l'irrégularité}{16}{subsubsection.4.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.2}La fonction de Heaviside comme limite de la fonction sigmoide}{16}{subsubsection.4.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.3}L'efficacité de l'EIM pour les fonctions lisses}{16}{subsubsection.4.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5}Implémentation et validation numérique}{17}{section.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Configuration du cas test paramétrique}{17}{subsection.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1}Maillage et conditions aux limites}{17}{subsubsection.5.1.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.2}Espace des paramètres}{18}{subsubsection.5.1.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Modèle Haute Fidélité et ensemble d'entraînement}{18}{subsection.5.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces  \textbf  {Solution de pression du modèle haute fidélité (HDM).} Champ de pression obtenu par éléments finis sur le maillage de référence. }}{18}{figure.caption.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.2}La fonction de Heaviside comme limite de la fonction sigmoïde}{16}{subsubsection.4.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Comparaison entre la fonction d'Heaviside $\textcolor {blue}{H}$ et une sigmoïde $\textcolor {red}{\sigma _{30}}$.}}{16}{figure.caption.2}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{fig:hdm_solution}{{1}{18}{\textbf {Solution de pression du modèle haute fidélité (HDM).} Champ de pression obtenu par éléments finis sur le maillage de référence}{figure.caption.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces  \textbf  {Neuf snapshots représentatifs de l'ensemble d'entraînement.} Bien que la position et la conductivité de la fracture varient considérablement, le champ de pression conserve une topologie globale similaire, ce qui garantit le succès de l'approche POD. }}{19}{figure.caption.3}\protected@file@percent }
-\newlabel{fig:snapshots_grid}{{2}{19}{\textbf {Neuf snapshots représentatifs de l'ensemble d'entraînement.} Bien que la position et la conductivité de la fracture varient considérablement, le champ de pression conserve une topologie globale similaire, ce qui garantit le succès de l'approche POD}{figure.caption.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Extraction de la base POD}{19}{subsection.5.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.1}Analyse spectrale}{19}{subsubsection.5.3.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces  \textbf  {Spectre singulier et énergie cumulée (200 snapshots).} La décroissance abrupte des valeurs singulières (gauche) confirme la forte compressibilité des solutions de ce problème paramétrique. }}{20}{figure.caption.4}\protected@file@percent }
-\newlabel{fig:pod_spectrum}{{3}{20}{\textbf {Spectre singulier et énergie cumulée (200 snapshots).} La décroissance abrupte des valeurs singulières (gauche) confirme la forte compressibilité des solutions de ce problème paramétrique}{figure.caption.4}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2}Interprétation physique des modes}{20}{subsubsection.5.3.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces  \textbf  {Les 9 premiers modes POD spatiaux.} Le mode 1 représente le profil de pression dominant. Les modes 2 à 9 ajoutent des détails structurels autour de la zone de fracture paramétrée. }}{20}{figure.caption.5}\protected@file@percent }
-\newlabel{fig:pod_modes}{{4}{20}{\textbf {Les 9 premiers modes POD spatiaux.} Le mode 1 représente le profil de pression dominant. Les modes 2 à 9 ajoutent des détails structurels autour de la zone de fracture paramétrée}{figure.caption.5}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Performances de la méthode POD (Phase Online)}{21}{subsection.5.4}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces  \textbf  {Convergence de l'erreur du modèle réduit POD.} L'erreur s'effondre exponentiellement, confirmant la prédiction du théorème d'Eckart-Young pour ce problème elliptique. }}{21}{figure.caption.6}\protected@file@percent }
-\newlabel{fig:pod_convergence}{{5}{21}{\textbf {Convergence de l'erreur du modèle réduit POD.} L'erreur s'effondre exponentiellement, confirmant la prédiction du théorème d'Eckart-Young pour ce problème elliptique}{figure.caption.6}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.1}Le goulot d'étranglement computationnel}{21}{subsubsection.5.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Hyper-réduction et performances EIM}{22}{subsection.5.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{22}{section.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Résumé des résultats}{22}{subsection.6.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Implications pratiques}{22}{subsection.6.2}\protected@file@percent }
+\newlabel{fig:heaviside_vs_sigmoide}{{1}{16}{Comparaison entre la fonction d'Heaviside $\textcolor {blue}{H}$ et une sigmoïde $\textcolor {red}{\sigma _{30}}$}{figure.caption.2}{}}
+\citation{trefethen2013}
+\newlabel{sec:efficacite_eim}{{4.3.3}{17}{L'efficacité de l'EIM pour les fonctions lisses}{subsubsection.4.3.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.3}L'efficacité de l'EIM pour les fonctions lisses }{17}{subsubsection.4.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Implémentation et validation numérique}{17}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Configuration du cas test paramétrique}{18}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1}Maillage et conditions aux limites}{18}{subsubsection.5.1.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Visualisation discrète des conditions aux limites imposées sur le bord du domaine.}}{18}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:conditions_limites}{{2}{18}{Visualisation discrète des conditions aux limites imposées sur le bord du domaine}{figure.caption.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.2}Espace des paramètres}{18}{subsubsection.5.1.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Distribution spatiale de la conductivité $K(x,y)$ pour une configuration donnée de la fracture : $a=40$, $x_0=70$, $w=5$, $D_{\mathrm  {back}}=100$ et $D_{\mathrm  {frac}}=1$.}}{19}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:conductivite_kxy}{{3}{19}{Distribution spatiale de la conductivité $K(x,y)$ pour une configuration donnée de la fracture : $a=40$, $x_0=70$, $w=5$, $D_{\mathrm {back}}=100$ et $D_{\mathrm {frac}}=1$}{figure.caption.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Modèle Haute Fidélité et ensemble d'entraînement}{19}{subsection.5.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces  \textbf  {Solution de pression du modèle haute fidélité (HDM).} Champ de pression obtenu par éléments finis sur le maillage de référence. }}{20}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:hdm_solution}{{4}{20}{\textbf {Solution de pression du modèle haute fidélité (HDM).} Champ de pression obtenu par éléments finis sur le maillage de référence}{figure.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces  \textbf  {Trois snapshots représentatifs de l'ensemble d'entraînement.}}}{21}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:snapshots_grid}{{5}{21}{\textbf {Trois snapshots représentatifs de l'ensemble d'entraînement.}}{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Extraction de la base POD}{21}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.1}Analyse spectrale}{21}{subsubsection.5.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces  \textbf  {Spectre singulier et énergie cumulée (200 snapshots).} La décroissance abrupte des valeurs singulières (gauche) confirme la forte compressibilité des solutions de ce problème paramétrique. }}{22}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:pod_spectrum}{{6}{22}{\textbf {Spectre singulier et énergie cumulée (200 snapshots).} La décroissance abrupte des valeurs singulières (gauche) confirme la forte compressibilité des solutions de ce problème paramétrique}{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2}Interprétation physique des modes}{22}{subsubsection.5.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces  \textbf  {Les 9 premiers modes POD spatiaux.} Le mode 1 représente le profil de pression dominant. Les modes 2 à 9 ajoutent des détails structurels autour de la zone de fracture paramétrée. }}{23}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:pod_modes}{{7}{23}{\textbf {Les 9 premiers modes POD spatiaux.} Le mode 1 représente le profil de pression dominant. Les modes 2 à 9 ajoutent des détails structurels autour de la zone de fracture paramétrée}{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Performances de la méthode POD (Phase Online)}{23}{subsection.5.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces  \textbf  {Convergence de l'erreur du modèle réduit POD.} L'erreur s'effondre exponentiellement, confirmant la prédiction du théorème d'Eckart-Young pour ce problème elliptique. }}{24}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:pod_convergence}{{8}{24}{\textbf {Convergence de l'erreur du modèle réduit POD.} L'erreur s'effondre exponentiellement, confirmant la prédiction du théorème d'Eckart-Young pour ce problème elliptique}{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.1}Le goulot d'étranglement computationnel}{24}{subsubsection.5.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.2}Le cas de la dépendance affine}{24}{subsubsection.5.4.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Comparaison entre la POD standard et la POD séparée dans le cas affine. La précision reste équivalente, mais la séparation affine réduit fortement le temps de calcul online.}}{25}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:comparaison_pod_standard_sep}{{9}{25}{Comparaison entre la POD standard et la POD séparée dans le cas affine. La précision reste équivalente, mais la séparation affine réduit fortement le temps de calcul online}{figure.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Evolution de la solution approchée en fonction du nombre de modes POD. Quelques modes suffisent à reproduire correctement la solution haute fidélité dans le cas affine.}}{26}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:evolution_solution_pod}{{10}{26}{Evolution de la solution approchée en fonction du nombre de modes POD. Quelques modes suffisent à reproduire correctement la solution haute fidélité dans le cas affine}{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Hyper-réduction et performances EIM}{26}{subsection.5.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.5.1}Construction de la base EIM}{26}{subsubsection.5.5.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces  \textbf  {4 modes de la base EIM.} Visualisation des modes principaux extraits par SVD (puis normalisés pour la norme $L^{\infty }$) des snapshots de conductivité. }}{27}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:base_EIM}{{11}{27}{\textbf {4 modes de la base EIM.} Visualisation des modes principaux extraits par SVD (puis normalisés pour la norme $L^{\infty }$) des snapshots de conductivité}{figure.caption.12}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.5.2}Sélection des "magic points" et approximation de la conductivité}{27}{subsubsection.5.5.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces  \textbf  {Erreur d'approximation de l'EIM pour la conductivité $k$.}}}{28}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:erreur_eim_k}{{12}{28}{\textbf {Erreur d'approximation de l'EIM pour la conductivité $k$.}}{figure.caption.13}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.5.3}Régularisation}{28}{subsubsection.5.5.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces  \textbf  {Comparaison entre la conductivité originale $k$ et la conductivité régularisée $k_{\alpha }$ pour $\alpha = 150$.}}}{28}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:comparaison_eim_k_kalpha}{{13}{28}{\textbf {Comparaison entre la conductivité originale $k$ et la conductivité régularisée $k_{\alpha }$ pour $\alpha = 150$.}}{figure.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces  \textbf  {Convergence de la conductivité régularisée et de la solution de pression associée vers les fonctions associées au problème de la fracture.}}}{29}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:convergence_alpha}{{14}{29}{\textbf {Convergence de la conductivité régularisée et de la solution de pression associée vers les fonctions associées au problème de la fracture.}}{figure.caption.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces   \textbf  {Performance de l'EIM pour reconstruire la conductivité $k_{\alpha }$.}}}{30}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:convergence_EIM_conductivite}{{15}{30}{\textbf {Performance de l'EIM pour reconstruire la conductivité $k_{\alpha }$.}}{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces   \textbf  {Visualisation des performances de l'EIM dans le cas régularisé.}}}{30}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:visualisation_EIM_Cinf}{{16}{30}{  \textbf {Visualisation des performances de l'EIM dans le cas régularisé.}}{figure.caption.17}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.5.4}Performance finale de l'EIM}{31}{subsubsection.5.5.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces   \textbf  {Visualisation des performances de l'EIM dans le cas régularisé.}}}{31}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:perf_final_EIM}{{17}{31}{  \textbf {Visualisation des performances de l'EIM dans le cas régularisé.}}{figure.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces   \textbf  {Comparaison entre la solution de pression haute fidélité et la solution approchée par l'EIM régularisé pour une configuration de test.}}}{32}{figure.caption.19}\protected@file@percent }
+\newlabel{fig:validation_finale_pression}{{18}{32}{  \textbf {Comparaison entre la solution de pression haute fidélité et la solution approchée par l'EIM régularisé pour une configuration de test.}}{figure.caption.19}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{32}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Résumé des résultats}{32}{subsection.6.1}\protected@file@percent }
 \bibcite{darcy_wiki}{{1}{}{{}}{{}}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Implications pratiques}{33}{subsection.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Limitations et perspectives}{33}{subsection.6.3}\protected@file@percent }
 \bibcite{pod_intro}{{2}{}{{}}{{}}}
 \bibcite{barrault2004}{{3}{}{{}}{{}}}
 \bibcite{arxiv_fracture}{{4}{}{{}}{{}}}
 \bibcite{trefethen2013}{{5}{}{{}}{{}}}
 \providecommand\NAT@force@numbers{}\NAT@force@numbers
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Limitations et perspectives}{23}{subsection.6.3}\protected@file@percent }
-\gdef \@abspage@last{24}
+\gdef \@abspage@last{35}
