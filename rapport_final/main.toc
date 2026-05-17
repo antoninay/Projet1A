@@ -7,7 +7,7 @@
 \contentsline {subsection}{\numberline {2.4}Discrétisation par éléments finis (Modèle Haute Fidélité)}{6}{subsection.2.4}%
 \contentsline {section}{\numberline {3}Réduction de modèle et hyper-réduction}{7}{section.3}%
 \contentsline {subsection}{\numberline {3.1}L'ensemble d'entraînement}{7}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Extraction de la base réduite : La méthode POD}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Extraction de la base réduite : La méthode POD }{7}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Principe géométrique et algébrique}{7}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}Interprétation et propriétés des modes POD}{8}{subsubsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.3}Projection de Galerkin et modèle réduit}{9}{subsection.3.3}%
@@ -24,24 +24,29 @@
 \contentsline {subsection}{\numberline {4.1}Motivation}{13}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Méthode}{13}{subsection.4.2}%
 \contentsline {subsubsection}{\numberline {4.2.1}Construction de la base EIM}{13}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Points magiques et sélection greedy}{14}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2}"Magic points" et sélection greedy}{14}{subsubsection.4.2.2}%
 \contentsline {subsubsection}{\numberline {4.2.3}Approximation affine et coefficients}{15}{subsubsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.3}La Régularisation de la fonction de Heaviside}{16}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.3}Régularisation}{16}{subsection.4.3}%
 \contentsline {subsubsection}{\numberline {4.3.1}L'obstacle de l'irrégularité}{16}{subsubsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.2}La fonction de Heaviside comme limite de la fonction sigmoide}{16}{subsubsection.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.3.3}L'efficacité de l'EIM pour les fonctions lisses}{16}{subsubsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.2}La fonction de Heaviside comme limite de la fonction sigmoïde}{16}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}L'efficacité de l'EIM pour les fonctions lisses }{17}{subsubsection.4.3.3}%
 \contentsline {section}{\numberline {5}Implémentation et validation numérique}{17}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Configuration du cas test paramétrique}{17}{subsection.5.1}%
-\contentsline {subsubsection}{\numberline {5.1.1}Maillage et conditions aux limites}{17}{subsubsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1}Configuration du cas test paramétrique}{18}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Maillage et conditions aux limites}{18}{subsubsection.5.1.1}%
 \contentsline {subsubsection}{\numberline {5.1.2}Espace des paramètres}{18}{subsubsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.2}Modèle Haute Fidélité et ensemble d'entraînement}{18}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Extraction de la base POD}{19}{subsection.5.3}%
-\contentsline {subsubsection}{\numberline {5.3.1}Analyse spectrale}{19}{subsubsection.5.3.1}%
-\contentsline {subsubsection}{\numberline {5.3.2}Interprétation physique des modes}{20}{subsubsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.4}Performances de la méthode POD (Phase Online)}{21}{subsection.5.4}%
-\contentsline {subsubsection}{\numberline {5.4.1}Le goulot d'étranglement computationnel}{21}{subsubsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.5}Hyper-réduction et performances EIM}{22}{subsection.5.5}%
-\contentsline {section}{\numberline {6}Conclusion}{22}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Résumé des résultats}{22}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Implications pratiques}{22}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Limitations et perspectives}{23}{subsection.6.3}%
+\contentsline {subsection}{\numberline {5.2}Modèle Haute Fidélité et ensemble d'entraînement}{19}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Extraction de la base POD}{21}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Analyse spectrale}{21}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.2}Interprétation physique des modes}{22}{subsubsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.4}Performances de la méthode POD (Phase Online)}{23}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Le goulot d'étranglement computationnel}{24}{subsubsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.4.2}Le cas de la dépendance affine}{24}{subsubsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.5}Hyper-réduction et performances EIM}{26}{subsection.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.1}Construction de la base EIM}{26}{subsubsection.5.5.1}%
+\contentsline {subsubsection}{\numberline {5.5.2}Sélection des "magic points" et approximation de la conductivité}{27}{subsubsection.5.5.2}%
+\contentsline {subsubsection}{\numberline {5.5.3}Régularisation}{28}{subsubsection.5.5.3}%
+\contentsline {subsubsection}{\numberline {5.5.4}Performance finale de l'EIM}{31}{subsubsection.5.5.4}%
+\contentsline {section}{\numberline {6}Conclusion}{32}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Résumé des résultats}{32}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Implications pratiques}{33}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Limitations et perspectives}{33}{subsection.6.3}%
