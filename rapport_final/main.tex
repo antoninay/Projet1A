@@ -81,6 +81,15 @@
 % Main content
 % =======================
 
+\selectlanguage{english}
+\begin{abstract}
+
+This project studies model order reduction for a parametrized Darcy flow problem in a fractured porous medium. A POD-Galerkin reduced model is first built from high-fidelity finite element snapshots. Then, the Empirical Interpolation Method is used to handle the non-affine dependence introduced by the moving fracture. The numerical results highlight the effectiveness of POD for reducing the dimension of the problem, as well as the contribution of EIM in limiting the online assembly cost.
+\end{abstract}
+\selectlanguage{french}
+
+\noindent\textbf{Keywords:} Model Order Reduction, Hyper-Reduction, Proper Orthogonal Decomposition (POD), Empirical Interpolation Method (EIM), Darcy Flow, Finite Element Method, Parametric Partial Differential Equations.
+
 \section{Introduction}
 
 Les méthodes de réduction de modèle permettent d’approcher efficacement la solution d’un modèle numérique de grande dimension par un modèle de dimension beaucoup plus faible. Elles sont particulièrement utiles pour les équations aux dérivées partielles paramétrées, où l’on doit résoudre plusieurs fois un même problème pour différentes valeurs de paramètres. Dans ce cas, la méthode des éléments finis fournit une solution dite haute fidélité, précise, mais dont le calcul devient rapidement coûteux lorsque la discrétisation conduit à un système de grande taille.
@@ -722,6 +731,7 @@ La Figure~\ref{fig:pod_convergence} démontre que l'erreur de projection (tant e
 Si la réduction de la dimension du système linéaire à $20 \times 20$ permet de rendre le temps de \textit{résolution} négligeable, le benchmark révèle un problème majeur : pour chaque nouvelle évaluation de $\mu$, l'assemblage de la matrice réduite $A_r(\mu)$ prend en moyenne $15$ millisecondes. 
 
 Bien que ce soit 3 fois plus rapide que le modèle HDM complet ($\sim 50$ ms), ce temps est dominé par l'intégration spatiale sur les $80\,402$ éléments du maillage (complexité en $\mathcal{O}(N_{\text{dof}})$). Ce constat expérimental valide la nécessité d'introduire une méthode d'hyper-réduction pour véritablement dé-corréler le temps de calcul \textit{online} de la finesse du maillage.
+
 \subsubsection{Le cas de la dépendance affine}
 
 Dans ce test, nous étudions le cas où la géométrie de la fracture est fixée. Les paramètres géométriques sont maintenus constants :
@@ -736,34 +746,36 @@ D_{\mathrm{frac}} \in [0.5,2].
 \]
 Nous générons ainsi un ensemble de $N_s = 50$ snapshots. Ce cas correspond à une dépendance affine en les conductivités, ce qui permet de comparer une POD standard à une POD exploitant directement cette séparation.
 
-
+Afin d'analyser plus finement la compressibilité du problème dans ce cas affine, nous étudions également le spectre des valeurs singulières de la matrice des snapshots. La Figure~\ref{fig:valeurs_singulieres_affine} montre une décroissance extrêmement rapide des valeurs singulières : dès la dixième valeur singulière, l'ordre de grandeur atteint environ $10^{-10}$. Cela confirme que l'espace des solutions possède une structure de faible dimension effective, ce qui explique pourquoi peu de modes POD suffisent à reconstruire correctement les solutions.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.90\textwidth]{figures/comparaisonPOD_standard_séparée.png}
+    \includegraphics[width=0.90\textwidth]{figures/valeurs_singulieres.png}
+    \caption{Valeurs singulières de la matrice des snapshots dans le cas affine. La décroissance rapide du spectre montre la forte compressibilité des solutions.}
+    \label{fig:valeurs_singulieres_affine}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.90\textwidth]{figures/comparaisonPOD_standard_séparée.png}
     \caption{Comparaison entre la POD standard et la POD séparée dans le cas affine. La précision reste équivalente, mais la séparation affine réduit fortement le temps de calcul online.}
     \label{fig:comparaison_pod_standard_sep}
 \end{figure}
 
-La Figure~\ref{fig:comparaison_pod_standard_sep} compare l'erreur en norme $A$ et le temps de calcul pour les deux approches. On observe d'abord que les erreurs obtenues par la POD standard et par la POD séparée sont pratiquement identiques. La séparation affine ne dégrade donc pas la précision du modèle réduit.
+La Figure~\ref{fig:comparaison_pod_standard_sep} compare l'erreur en norme $A$ et le temps de calcul pour les deux approches. On observe d'abord que les erreurs obtenues par la POD standard et par la POD séparée sont pratiquement identiques. La séparation affine ne dégrade donc pas la précision du modèle réduit. On remarque également que l'erreur décroît très rapidement avant d'atteindre un plateau. Cette stagnation ne provient pas de la méthode POD elle-même, mais de la précision machine : une fois les erreurs proches de l'ordre de $10^{-12}$--$10^{-13}$, les limites numériques des calculs en double précision empêchent d'obtenir une amélioration significative supplémentaire.
 
 En revanche, la différence apparaît nettement sur le temps de calcul. Le temps de la POD standard augmente avec le nombre de modes, car la construction de la matrice réduite reste coûteuse. À l'inverse, le temps de la POD séparée reste très faible et presque constant. Cette différence confirme l'intérêt de la séparation affine : elle permet d'obtenir la même précision tout en réduisant fortement le coût online.
-
-
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\textwidth]{figures/evolutionsolution_POD.png}
-    \caption{Evolution de la solution approchée en fonction du nombre de modes POD. Quelques modes suffisent à reproduire correctement la solution haute fidélité dans le cas affine.}
+    \caption{Évolution de la solution approchée en fonction du nombre de modes POD. Quelques modes suffisent à reproduire correctement la solution haute fidélité dans le cas affine.}
     \label{fig:evolution_solution_pod}
 \end{figure}
-La Figure~\ref{fig:evolution_solution_pod} montre l'évolution de la solution approchée lorsque le nombre de modes POD augmente. Dès le premier mode, la structure globale du champ de pression est déjà bien capturée. Avec deux puis trois modes, la solution se rapproche davantage de la solution haute fidélité, notamment dans les zones de transition liées à la fracture.\\
 
-Ces résultats confirment que le cas affine est très favorable à la réduction de modèle. La POD fournit une approximation précise avec peu de modes, et la séparation affine permet de réduire fortement le temps de calcul. Ce cas sert donc de référence avant de traiter le cas général, où la géométrie varie et où la dépendance n'est plus affine.
+La Figure~\ref{fig:evolution_solution_pod} montre l'évolution de la solution approchée lorsque le nombre de modes POD augmente. Dès le premier mode, la structure globale du champ de pression est déjà bien capturée. Avec deux puis trois modes, la solution se rapproche progressivement de la solution haute fidélité. Les différences visuelles deviennent rapidement très faibles, ce qui illustre la capacité de la POD à capturer efficacement la structure globale du champ de pression avec un nombre réduit de modes.
 
-% =================================================================
-% ATTENTION : LAISSER LA SUITE À TON CAMARADE POUR L'EIM
-% =================================================================
+Ces résultats confirment que le cas affine est très favorable à la réduction de modèle. La POD fournit une approximation précise avec peu de modes, et la séparation affine permet de réduire fortement le temps de calcul. Ce cas constitue donc un premier résultat favorable avant de traiter le cas général, où la géométrie varie et où la dépendance n'est plus affine.
 
 \subsection{Hyper-réduction et performances EIM}
 
