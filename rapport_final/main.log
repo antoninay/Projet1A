@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.2.21)  17 MAY 2026 15:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.2.21)  18 MAY 2026 16:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -634,7 +634,10 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count345
 \l__pdf_internal_box=\box71
-) (./main.aux)
+) (./main.aux (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.tex)
+Package babel Info: Importing data for english
+(babel)             from babel-en.ini. Reported on input line 12.
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
@@ -722,12 +725,12 @@ Package hyperref Info: Link coloring OFF on input line 33.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-<Logo-ENPC-IP-RVB.png, id=212, 823.75755pt x 284.0211pt>
+<Logo-ENPC-IP-RVB.png, id=199, 823.75755pt x 284.0211pt>
 File: Logo-ENPC-IP-RVB.png Graphic file (type png)
 <use Logo-ENPC-IP-RVB.png>
 Package pdftex.def Info: Logo-ENPC-IP-RVB.png  used on input line 44.
 (pdftex.def)             Requested size: 165.03769pt x 56.9055pt.
-<cermics.jpeg, id=214, 590.205pt x 174.6525pt>
+<cermics.jpeg, id=201, 590.205pt x 174.6525pt>
 File: cermics.jpeg Graphic file (type jpg)
 <use cermics.jpeg>
 Package pdftex.def Info: cermics.jpeg  used on input line 49.
@@ -737,33 +740,33 @@ Package pdftex.def Info: cermics.jpeg  used on input line 49.
 [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc} <./Logo-ENPC-IP-RVB.png> <./cermics.jpeg>] (./main.toc
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 4.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 6.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 4.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 6.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 4.
+(Font)              <12> on input line 6.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 4.
+(Font)              <8> on input line 6.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 4.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+(Font)              <6> on input line 6.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -772,10 +775,15 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.38 ...action de la base POD}{21}{subsection.5.3}
+l.40 ...ysique des modes}{21}{subsubsection.5.3.2}
                                                   % [1])
 \tf@toc=\write5
 \openout5 = `main.toc'.
+
+
+Overfull \hbox (6.78836pt too wide) in paragraph at lines 88--89
+\T1/lmr/m/n/10.95 from high-fidelity fi-nite el-e-ment snap-shots. Then, the Em-pir-i-cal In-ter-po-la-tion Method
+ []
 
 
 
@@ -810,201 +818,196 @@ l.38 ...action de la base POD}{21}{subsection.5.3}
 [16]
 
 [17]
-<figures/conditions_limites.png, id=402, 394.5942pt x 312.9291pt>
+<figures/conditions_limites.png, id=390, 394.5942pt x 312.9291pt>
 File: figures/conditions_limites.png Graphic file (type png)
 <use figures/conditions_limites.png>
-Package pdftex.def Info: figures/conditions_limites.png  used on input line 628.
+Package pdftex.def Info: figures/conditions_limites.png  used on input line 639.
 (pdftex.def)             Requested size: 295.90588pt x 234.6819pt.
 
 
 [18 <./figures/conditions_limites.png>]
-<figures/conductivite_Kxy.png, id=410, 363.5181pt x 313.6518pt>
+<figures/conductivite_Kxy.png, id=398, 363.5181pt x 313.6518pt>
 File: figures/conductivite_Kxy.png Graphic file (type png)
 <use figures/conductivite_Kxy.png>
-Package pdftex.def Info: figures/conductivite_Kxy.png  used on input line 644.
+Package pdftex.def Info: figures/conductivite_Kxy.png  used on input line 655.
 (pdftex.def)             Requested size: 295.90588pt x 255.32483pt.
-<figures/graphes_projet/distribution_spatiale_solution.png, id=412, 1453.43pt x 1090.0725pt>
+<figures/graphes_projet/distribution_spatiale_solution.png, id=400, 1453.43pt x 1090.0725pt>
 File: figures/graphes_projet/distribution_spatiale_solution.png Graphic file (type png)
 <use figures/graphes_projet/distribution_spatiale_solution.png>
-Package pdftex.def Info: figures/graphes_projet/distribution_spatiale_solution.png  used on input line 655.
-(pdftex.def)             Requested size: 364.19667pt x 273.1495pt.
+Package pdftex.def Info: figures/graphes_projet/distribution_spatiale_solution.png  used on input line 666.
+(pdftex.def)             Requested size: 295.90588pt x 221.91942pt.
 
 
 [19 <./figures/conductivite_Kxy.png>]
-<figures/snapshot_1.png, id=421, 1091.277pt x 711.8595pt>
+<figures/snapshot_1.png, id=409, 1091.277pt x 711.8595pt>
 File: figures/snapshot_1.png Graphic file (type png)
 <use figures/snapshot_1.png>
-Package pdftex.def Info: figures/snapshot_1.png  used on input line 666.
+Package pdftex.def Info: figures/snapshot_1.png  used on input line 675.
 (pdftex.def)             Requested size: 455.24411pt x 296.96947pt.
 
 
-[20 <./figures/graphes_projet/distribution_spatiale_solution.png (PNG copy)>]
-<figures/graphes_projet/valeurs_singulières_3.png, id=428, 1511.6475pt x 1047.915pt>
+[20 <./figures/graphes_projet/distribution_spatiale_solution.png (PNG copy)> <./figures/snapshot_1.png>]
+<figures/graphes_projet/valeurs_singulières_3.png, id=417, 1511.6475pt x 1047.915pt>
 File: figures/graphes_projet/valeurs_singulières_3.png Graphic file (type png)
 <use figures/graphes_projet/valeurs_singulières_3.png>
-Package pdftex.def Info: figures/graphes_projet/valeurs_singulières_3.png  used on input line 684.
+Package pdftex.def Info: figures/graphes_projet/valeurs_singulières_3.png  used on input line 693.
 (pdftex.def)             Requested size: 227.62206pt x 157.78807pt.
-<figures/graphes_projet/énergie_cumulée_3.png, id=429, 1453.43pt x 1090.0725pt>
+<figures/graphes_projet/énergie_cumulée_3.png, id=418, 1453.43pt x 1090.0725pt>
 File: figures/graphes_projet/énergie_cumulée_3.png Graphic file (type png)
 <use figures/graphes_projet/énergie_cumulée_3.png>
-Package pdftex.def Info: figures/graphes_projet/énergie_cumulée_3.png  used on input line 688.
+Package pdftex.def Info: figures/graphes_projet/énergie_cumulée_3.png  used on input line 697.
 (pdftex.def)             Requested size: 227.62206pt x 170.70596pt.
-
-
-[21 <./figures/snapshot_1.png>]
-<figures/03_pod_modes_9.png, id=438, 1004.0712pt x 866.2764pt>
+<figures/03_pod_modes_9.png, id=420, 1004.0712pt x 866.2764pt>
 File: figures/03_pod_modes_9.png Graphic file (type png)
 <use figures/03_pod_modes_9.png>
-Package pdftex.def Info: figures/03_pod_modes_9.png  used on input line 700.
+Package pdftex.def Info: figures/03_pod_modes_9.png  used on input line 710.
 (pdftex.def)             Requested size: 455.24411pt x 392.76846pt.
 
 
-[22 <./figures/graphes_projet/valeurs_singulières_3.png (PNG copy)> <./figures/graphes_projet/énergie_cumulée_3.png (PNG copy)>]
-<figures/erreur_normeA.png, id=445, 1661.20625pt x 953.5625pt>
+[21 <./figures/graphes_projet/valeurs_singulières_3.png (PNG copy)> <./figures/graphes_projet/énergie_cumulée_3.png (PNG copy)>]
+<figures/erreur_normeA.png, id=428, 1661.20625pt x 953.5625pt>
 File: figures/erreur_normeA.png Graphic file (type png)
 <use figures/erreur_normeA.png>
-Package pdftex.def Info: figures/erreur_normeA.png  used on input line 715.
+Package pdftex.def Info: figures/erreur_normeA.png  used on input line 727.
 (pdftex.def)             Requested size: 409.71692pt x 235.17445pt.
 
 
-[23 <./figures/03_pod_modes_9.png>]
+[22 <./figures/03_pod_modes_9.png>]
+<figures/valeurs_singulieres.png, id=437, 1580.90625pt x 1001.7425pt>
+File: figures/valeurs_singulieres.png Graphic file (type png)
+<use figures/valeurs_singulieres.png>
+Package pdftex.def Info: figures/valeurs_singulieres.png  used on input line 754.
+(pdftex.def)             Requested size: 409.71692pt x 259.62149pt.
 
-[24 <./figures/erreur_normeA.png (PNG copy)>]
-<figures/comparaisonPOD_standard_séparée.png, id=457, 1634.105pt x 969.6225pt>
-File: figures/comparaisonPOD_standard_séparée.png Graphic file (type png)
-<use figures/comparaisonPOD_standard_séparée.png>
-Package pdftex.def Info: figures/comparaisonPOD_standard_séparée.png  used on input line 744.
+
+[23 <./figures/erreur_normeA.png (PNG copy)>]
+<figures/comparaisonPOD_standard_séparée.png, id=443, 1634.105pt x 969.6225pt>
+File: figures/comparaisonPOD_standard_séparée.png Graphic file (type png)
+<use figures/comparaisonPOD_standard_séparée.png>
+Package pdftex.def Info: figures/comparaisonPOD_standard_séparée.png  used on input line 761.
 (pdftex.def)             Requested size: 409.71692pt x 243.1004pt.
-<figures/evolutionsolution_POD.png, id=459, 1497.595pt x 1057.9525pt>
+
+
+[24 <./figures/valeurs_singulieres.png (PNG copy)> <./figures/comparaisonPOD_standard_séparée.png (PNG copy)>]
+<figures/evolutionsolution_POD.png, id=451, 1497.595pt x 1057.9525pt>
 File: figures/evolutionsolution_POD.png Graphic file (type png)
 <use figures/evolutionsolution_POD.png>
-Package pdftex.def Info: figures/evolutionsolution_POD.png  used on input line 757.
+Package pdftex.def Info: figures/evolutionsolution_POD.png  used on input line 772.
 (pdftex.def)             Requested size: 455.24411pt x 321.60153pt.
 
 
-[25 <./figures/comparaisonPOD_standard_séparée.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 761--762
-
- []
-
-<figures/base_EIM/1.png, id=466, 373.6359pt x 312.9291pt>
+[25 <./figures/evolutionsolution_POD.png (PNG copy)>]
+<figures/base_EIM/1.png, id=458, 373.6359pt x 312.9291pt>
 File: figures/base_EIM/1.png Graphic file (type png)
 <use figures/base_EIM/1.png>
-Package pdftex.def Info: figures/base_EIM/1.png  used on input line 778.
+Package pdftex.def Info: figures/base_EIM/1.png  used on input line 790.
 (pdftex.def)             Requested size: 227.62206pt x 190.64293pt.
-<figures/base_EIM/2.png, id=467, 367.1316pt x 312.9291pt>
+<figures/base_EIM/2.png, id=459, 367.1316pt x 312.9291pt>
 File: figures/base_EIM/2.png Graphic file (type png)
 <use figures/base_EIM/2.png>
-Package pdftex.def Info: figures/base_EIM/2.png  used on input line 779.
+Package pdftex.def Info: figures/base_EIM/2.png  used on input line 791.
 (pdftex.def)             Requested size: 227.62206pt x 194.0188pt.
-<figures/base_EIM/3.png, id=468, 367.1316pt x 312.9291pt>
+<figures/base_EIM/3.png, id=460, 367.1316pt x 312.9291pt>
 File: figures/base_EIM/3.png Graphic file (type png)
 <use figures/base_EIM/3.png>
-Package pdftex.def Info: figures/base_EIM/3.png  used on input line 780.
+Package pdftex.def Info: figures/base_EIM/3.png  used on input line 792.
 (pdftex.def)             Requested size: 227.62206pt x 194.0188pt.
-<figures/base_EIM/4.png, id=469, 367.1316pt x 312.9291pt>
+<figures/base_EIM/4.png, id=461, 367.1316pt x 312.9291pt>
 File: figures/base_EIM/4.png Graphic file (type png)
 <use figures/base_EIM/4.png>
-Package pdftex.def Info: figures/base_EIM/4.png  used on input line 781.
+Package pdftex.def Info: figures/base_EIM/4.png  used on input line 793.
 (pdftex.def)             Requested size: 227.62206pt x 194.0188pt.
 
-Overfull \hbox (24.00003pt too wide) in paragraph at lines 777--786
+Overfull \hbox (24.00003pt too wide) in paragraph at lines 789--798
  [][] 
  []
 
-
-
-[26 <./figures/evolutionsolution_POD.png (PNG copy)>]
-<figures/erreur2_final.png, id=477, 561.89925pt x 339.669pt>
+<figures/erreur2_final.png, id=464, 1625.07124pt x 974.64125pt>
 File: figures/erreur2_final.png Graphic file (type png)
 <use figures/erreur2_final.png>
-Package pdftex.def Info: figures/erreur2_final.png  used on input line 793.
-(pdftex.def)             Requested size: 455.24411pt x 275.20294pt.
+Package pdftex.def Info: figures/erreur2_final.png  used on input line 805.
+(pdftex.def)             Requested size: 455.24411pt x 273.03154pt.
 
 
-[27 <./figures/base_EIM/1.png> <./figures/base_EIM/2.png> <./figures/base_EIM/3.png> <./figures/base_EIM/4.png>]
-<figures/compare_1.png, id=488, 363.5181pt x 312.9291pt>
+[26 <./figures/base_EIM/1.png> <./figures/base_EIM/2.png> <./figures/base_EIM/3.png> <./figures/base_EIM/4.png>]
+<figures/compare_1.png, id=475, 363.5181pt x 312.9291pt>
 File: figures/compare_1.png Graphic file (type png)
 <use figures/compare_1.png>
-Package pdftex.def Info: figures/compare_1.png  used on input line 807.
+Package pdftex.def Info: figures/compare_1.png  used on input line 819.
 (pdftex.def)             Requested size: 227.62206pt x 195.94308pt.
-<figures/compare_2.png, id=489, 371.4678pt x 313.6518pt>
+<figures/compare_2.png, id=476, 371.4678pt x 313.6518pt>
 File: figures/compare_2.png Graphic file (type png)
 <use figures/compare_2.png>
-Package pdftex.def Info: figures/compare_2.png  used on input line 808.
+Package pdftex.def Info: figures/compare_2.png  used on input line 820.
 (pdftex.def)             Requested size: 227.62206pt x 192.19835pt.
 
-Overfull \hbox (24.00003pt too wide) in paragraph at lines 806--811
+Overfull \hbox (24.00003pt too wide) in paragraph at lines 818--823
  [][] 
  []
 
 
 
-[28 <./figures/erreur2_final.png> <./figures/compare_1.png> <./figures/compare_2.png>]
-<figures/convergence_alpha.png, id=499, 715.473pt x 354.123pt>
+[27 <./figures/erreur2_final.png (PNG copy)>]
+<figures/convergence_alpha.png, id=483, 715.473pt x 354.123pt>
 File: figures/convergence_alpha.png Graphic file (type png)
 <use figures/convergence_alpha.png>
-Package pdftex.def Info: figures/convergence_alpha.png  used on input line 818.
+Package pdftex.def Info: figures/convergence_alpha.png  used on input line 830.
 (pdftex.def)             Requested size: 455.24411pt x 225.31949pt.
-<figures/convergence_EIM_conductivite.png, id=502, 586.1097pt x 369.2997pt>
+
+
+[28 <./figures/compare_1.png> <./figures/compare_2.png> <./figures/convergence_alpha.png>]
+<figures/convergence_EIM_conductivite.png, id=495, 1625.07124pt x 974.64125pt>
 File: figures/convergence_EIM_conductivite.png Graphic file (type png)
 <use figures/convergence_EIM_conductivite.png>
-Package pdftex.def Info: figures/convergence_EIM_conductivite.png  used on input line 827.
-(pdftex.def)             Requested size: 455.24411pt x 286.8467pt.
-
-
-[29 <./figures/convergence_alpha.png>]
-<figures/visualisation_EIM_Cinf.png, id=509, 1052.2512pt x 586.1097pt>
+Package pdftex.def Info: figures/convergence_EIM_conductivite.png  used on input line 839.
+(pdftex.def)             Requested size: 455.24411pt x 273.03154pt.
+<figures/visualisation_EIM_Cinf.png, id=496, 1052.2512pt x 586.1097pt>
 File: figures/visualisation_EIM_Cinf.png Graphic file (type png)
 <use figures/visualisation_EIM_Cinf.png>
-Package pdftex.def Info: figures/visualisation_EIM_Cinf.png  used on input line 837.
+Package pdftex.def Info: figures/visualisation_EIM_Cinf.png  used on input line 849.
 (pdftex.def)             Requested size: 455.24411pt x 253.57838pt.
 
 
-[30 <./figures/convergence_EIM_conductivite.png> <./figures/visualisation_EIM_Cinf.png>]
-<figures/perf_final_EIM.png, id=524, 859.2903pt x 570.933pt>
+[29 <./figures/convergence_EIM_conductivite.png (PNG copy)> <./figures/visualisation_EIM_Cinf.png>]
+<figures/perf_final_EIM.png, id=509, 1540.75626pt x 1027.84pt>
 File: figures/perf_final_EIM.png Graphic file (type png)
 <use figures/perf_final_EIM.png>
-Package pdftex.def Info: figures/perf_final_EIM.png  used on input line 853.
-(pdftex.def)             Requested size: 455.24411pt x 302.47107pt.
-<figures/validation_finale_pression.png, id=526, 974.9223pt x 441.5697pt>
+Package pdftex.def Info: figures/perf_final_EIM.png  used on input line 865.
+(pdftex.def)             Requested size: 455.24411pt x 303.68068pt.
+<figures/validation_finale_pression.png, id=511, 974.9223pt x 441.5697pt>
 File: figures/validation_finale_pression.png Graphic file (type png)
 <use figures/validation_finale_pression.png>
-Package pdftex.def Info: figures/validation_finale_pression.png  used on input line 862.
+Package pdftex.def Info: figures/validation_finale_pression.png  used on input line 874.
 (pdftex.def)             Requested size: 455.24411pt x 206.19022pt.
 
 
-[31 <./figures/perf_final_EIM.png>]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 880.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
+[30 <./figures/perf_final_EIM.png (PNG copy)>]
 
-[32{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc} <./figures/validation_finale_pression.png>]
+[31 <./figures/validation_finale_pression.png>]
 
-[33]
+[32]
 
-[34] (./main.aux)
+[33] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 678EBFDDCEE29E8271756108BB01E076;12432.
+(rerunfilecheck)             Checksum: 80768AB01C78A660BD21537C6CBE4E85;11435.
  ) 
 Here is how much of TeX's memory you used:
- 35792 strings out of 473190
- 821992 string characters out of 5715800
- 1373509 words of memory out of 5000000
- 58344 multiletter control sequences out of 15000+600000
- 621320 words of font info for 72 fonts, out of 8000000 for 9000
+ 35899 strings out of 473190
+ 824335 string characters out of 5715800
+ 1379520 words of memory out of 5000000
+ 58456 multiletter control sequences out of 15000+600000
+ 626930 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,19n,101p,1065b,2138s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (35 pages, 12845903 bytes).
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (34 pages, 16255743 bytes).
 PDF statistics:
- 676 PDF objects out of 1000 (max. 8388607)
- 559 compressed objects within 6 object streams
- 145 named destinations out of 1000 (max. 500000)
- 541 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 659 PDF objects out of 1000 (max. 8388607)
+ 542 compressed objects within 6 object streams
+ 138 named destinations out of 1000 (max. 500000)
+ 522 words of extra memory for PDF output out of 10000 (max. 10000000)
 
