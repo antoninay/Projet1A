@@ -1,0 +1,5 @@
+\babel@toc {french}{}\relax 
+\beamer@sectionintoc {1}{Introduction et modélisation du problème}{3}{0}{1}
+\beamer@sectionintoc {2}{Réduction de modèle par POD}{12}{0}{2}
+\beamer@sectionintoc {3}{Hyper-réduction par EIM}{29}{0}{3}
+\beamer@sectionintoc {4}{Conclusion}{57}{0}{4}
